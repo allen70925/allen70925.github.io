@@ -1,0 +1,18 @@
+div{
+    margin: 15px;
+    text-align: justify;
+    line-height: 30px;
+}
+h3{
+    color: blue;
+}
+span {
+    color: red;
+    font-weight: bolder;
+}
+ul li {list-style-type: disc;
+       color: brown;
+}
+ul>ol>li {
+    list-style-type: decimal;
+}
