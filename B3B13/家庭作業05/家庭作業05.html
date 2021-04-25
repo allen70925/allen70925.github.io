@@ -68,12 +68,14 @@
         }
 
 
-        for (i=5; i<=7; i++) {
+        for (i=5; i<=9; i++) {
             if(x.elements[i].checked == true){
                 switch(i){
-                    case 5: price=475; break;
-                    case 6: price=435; break;
-                    case 7: price=749; break;
+                    case 5: price=2480; break;
+                    case 6: price=698; break;
+                    case 7: price=1480; break;
+                    case 8: price=1280; break;
+                    case 9: price=1100; break;
                 }
                 text += "<tr><td>水果種類: </td>" + "<td>" + x.elements[i].value + "</td></tr>";
                 text += "<tr><td>價格合計: </td>" + "<td>" + price + "元</td><tr>";
